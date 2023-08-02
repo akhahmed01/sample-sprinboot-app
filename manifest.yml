@@ -1,0 +1,7 @@
+applications:
+- name: d-apps
+  path: ./target/pcf-demo-app.jar
+  memory: 512M
+  random-route: true
+  instances: 1
+  buildpack: java_buildpack
